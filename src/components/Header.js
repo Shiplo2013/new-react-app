@@ -1,7 +1,7 @@
 import logo from '../logo.svg';
 
 function Logo(props) {
-    const showLogo = <img width={'200px'} src={logo} />;
+    const showLogo = <img width={'200px'} alt={'Logo'} src={logo} />;
     return showLogo;
 }
 function Header() {
