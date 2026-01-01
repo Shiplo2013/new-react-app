@@ -1,7 +1,10 @@
+import { useState } from "react";
+
 function Button() {
-    const clickHandler = () => console.log("Clicked!");
+    const [getIncrement, setIncrement] = useState(0);
+    const clickHandler = () => setIncrement(getIncrement + 1);
     return (
-        <button onClick={clickHandler}>Click Me!</button>
+        <button onClick={clickHandler}>Click Me! <span>{getIncrement}</span> Times</button>
     );
 }
 
