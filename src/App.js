@@ -3,6 +3,7 @@ import Button from './components/Button';
 import Card from './components/Card';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import InputComponent from './components/InputComponent';
 import Nav from './components/Nav';
 import Promo from './components/Promo';
 
@@ -11,6 +12,7 @@ const randNum = () => Math.floor(Math.random() * 100) + 1;
 function App() {
   return (
     <div>
+      <InputComponent />
       <Button />
       <Card num={randNum()} />
       <Card num={randNum()} />
