@@ -7,12 +7,14 @@ import InputComponent from './components/InputComponent';
 import InputWithUseRef from './components/InputWithUseRef';
 import Nav from './components/Nav';
 import Promo from './components/Promo';
+import PropDrilling from './components/PropDrilling';
 
 const randNum = () => Math.floor(Math.random() * 100) + 1;
 
 function App() {
   return (
     <div>
+      <PropDrilling msg="I passed through the PropDrilling, Header and the Wrapper and I reached the Button component." />
       <InputWithUseRef />
       <InputComponent />
       <Button />
