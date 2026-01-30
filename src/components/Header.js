@@ -2,7 +2,7 @@ import logo from '../logo.svg';
 import LogInLogOutButton from './LogInLogOutButton';
 
 function Logo(props) {
-    const showLogo = <img width={'200px'} alt={'Logo'} src={logo} />;
+    const showLogo = <img width={'200px'} alt={'Logo'} src={logo} alt="Company name" />;
     return showLogo;
 }
 function Header() {
