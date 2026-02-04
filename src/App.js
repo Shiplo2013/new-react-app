@@ -2,6 +2,7 @@ import './App.css';
 import CalculatorApp from './CalculatorApp/CalculatorApp';
 import Button from './components/Button';
 import Card from './components/Card';
+import FetchAPI from './components/FetchAPI';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import InputComponent from './components/InputComponent';
@@ -17,6 +18,7 @@ const randNum = () => Math.floor(Math.random() * 100) + 1;
 function App() {
   return (
     <div>
+      <FetchAPI />
       <SignUpform />
       <ToDoList />
       <CalculatorApp />
